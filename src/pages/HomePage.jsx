@@ -20,7 +20,7 @@ const HomePage = () => {
         <div className="flex flex-col md:flex-row items-center justify-center">
           <p className="text-center text-gray-300 mb-8 max-w-md md:mr-12">
             Discover the power of AI — chat, transcribe, and manage your profile
-            effortlessly.
+            seamlessly.
           </p>
           <div className="relative h-48 w-48 mb-12 md:h-64 md:w-64">
             <Lottie animationData={botIcon} loop={true} />
@@ -35,7 +35,7 @@ const HomePage = () => {
             onClick={() => navigate("/chat")}
           >
             <div className="flex items-center gap-2 mb-4">
-              <Bot size={24} />
+              <Bot size={28} />
               <h2 className="text-2xl font-semibold"> Chat</h2>
             </div>
             <p className="text-lg opacity-70">
