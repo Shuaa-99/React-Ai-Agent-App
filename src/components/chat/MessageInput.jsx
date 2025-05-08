@@ -162,7 +162,11 @@ const MessageInput = ({ handleSend, input, setInput }) => {
         }`}
         title="Voice input"
       >
-        {listening ? <RiVoiceAiLine /> : <MdKeyboardVoice />}
+        {listening ? (
+          <RiVoiceAiLine className="w-5 h-5" />
+        ) : (
+          <MdKeyboardVoice className="w-5 h-5" />
+        )}
       </button>
 
       <button
