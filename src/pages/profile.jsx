@@ -320,7 +320,6 @@
 //   );
 // };
 
-// export default Profile;
 
 import { useAuth } from "../context/AuthContext";
 import { useState } from "react";
@@ -328,6 +327,7 @@ import Sidebar from "../components/chat/Sidebar";
 import { useDarkMode } from "../context/DarkModeContext";
 import { FiEdit2, FiSave, FiTrash2 } from "react-icons/fi";
 import { updateProfile } from "firebase/auth";
+
 
 const Profile = () => {
   const { currentUser } = useAuth();

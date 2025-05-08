@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import Profile from "./pages/Profile";
+import Profile from "./pages/profile";
 import ChatInterface from "./components/chat/ChatInterface";
 import ProtectedRoute from "./components/shared/ProtectedRoute";
 import HomePage from "./pages/HomePage";
