@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import Lottie from "lottie-react";
 import loadingAnimation from "../assets/loading-circle.json"; // تخصيص الرسوم المتحركة هنا
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -181,9 +182,9 @@ const Login = () => {
 
             <div className="text-white text-center mt-4 opacity-70">
               <span>Don't have an account? </span>
-              <a href="/signup" className="text-blue-400 hover:underline">
+              <Link to="/signup" className="text-blue-400 hover:underline">
                 Sign up
-              </a>
+              </Link>
             </div>
           </div>
         </div>

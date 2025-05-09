@@ -150,6 +150,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import Lottie from "lottie-react";
 import loadingAnimation from "../assets/loading-circle.json";
+// import { Link } from "react-router-dom";
 
 const Signup = () => {
   const [firstName, setFirstName] = useState("");
